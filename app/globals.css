@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer  base {
+h1 {
+  @apply text-yello text-3xl sm:text-3xl;
+}
+
+h2{
+  @apply text-2xl;
+}
+
+h3{
+  @apply text-lg;
+}
+
+h4{
+  @apply text-base;
+}
+
+p{
+  @apply text-base;
+}
+
+ h1, h2, h3, h4 {
+  @apply font-display;
+}
+  
+html {
+  @apply font-serif;
+}
+.icons-contactme{
+@apply text-4xl text-white 
+}
+} 
