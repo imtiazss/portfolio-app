@@ -6,8 +6,8 @@ export default function Home() {
    <>
     <div >
       About me Professional Ex.
-<div>test</div>
-<div>Test Git Commit</div>
+
+
       <AboutMe data={aboutMe}/>
     </div>
    </>
