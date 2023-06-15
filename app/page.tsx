@@ -6,7 +6,7 @@ export default function Home() {
    <>
     <div >
       About me Professional Ex.
-
+<div>test</div>
       <AboutMe data={aboutMe}/>
     </div>
    </>
