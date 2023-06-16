@@ -6,7 +6,7 @@ export default function Home() {
    <>
     <div >
       About me Professional Ex.
-
+<h1>imtiaz/index</h1>
 
       <AboutMe data={aboutMe}/>
     </div>
