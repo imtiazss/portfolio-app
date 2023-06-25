@@ -7,7 +7,7 @@ import {Envelope, Linkedin, Medium, Twitter} from "./icons"
 const Sidebar=({data}) => {
      const {name, role, education,contactLink} = data;
     return(
-        <div className="bg-black flex flex-col
+        <div className="bg-black flex flex-col sm:fixed
                         content-between w-full h-auto  
                         sm:h-screen sm:justify-around sm:w-1/3 ">
            

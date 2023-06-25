@@ -4,11 +4,11 @@
 
 @layer  base {
 h1 {
-  @apply text-yello text-3xl sm:text-3xl;
+  @apply text-lightCiyan text-3xl sm:text-2xl;
 }
 
 h2{
-  @apply text-2xl;
+  @apply text-2xl text-Orange font-extrabold text-justify;
 }
 
 h3{
@@ -16,7 +16,7 @@ h3{
 }
 
 h4{
-  @apply text-base;
+  @apply text-base text-lightCiyan font-extrabold;
 }
 
 p{
@@ -31,6 +31,27 @@ html {
   @apply font-serif;
 }
 .icons-contactme{
-@apply text-4xl text-white 
+@apply text-4xl
 }
 } 
+
+section {
+  @apply mb-10;
+}
+
+main h2 {
+  @apply uppercase text-Orange font-extrabold;
+}
+
+.btn {
+@apply w-1/2 h-12 bg-lightCiyan font-display uppercase text-xl m-[2px] hover:drop-shadow-xl  text-white hover:bg-Orange hover:rounded-md ;
+}
+
+
+.btnAry {
+  @apply w-1/2 h-12  font-display uppercase text-sm  hover:drop-shadow-xl rounded-t-xl text-white px-6  lg:text-xl md:text-lg sm:text-sm ;
+  }
+
+  .skill{
+    @apply bg-green-light text-lg py-2 px-4 w-fit rounded-md;
+  }

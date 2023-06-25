@@ -9,12 +9,15 @@ module.exports = {
   ],
   theme: {
     colors : {
-      black : "#191A19",
-      yello: "#FFF734",
+      black : "#000000",
+      yellow: "#FFF734",
       green: "#68F590",
       grey: "#F3F3F3" , 
       "green-light":"#d2eff1",
       white : "#fff",
+      lightCiyan : "#C0C0C0",
+      Orange : "#E18A07",
+      lightOrange : "#dfc59e"
       
     },
 
