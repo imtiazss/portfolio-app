@@ -6,8 +6,8 @@ const AboutMe =({data, skills})=> {
     const id = useId();
     return (
         <div>
-            <section className="shadow-inner hover:shadow-lg m-3 p-4">
-                <h2 className="mb-8"> {title}</h2>
+            <section className="drop-shadow-xl shadow-Orange shadow-sm hover:shadow-lg m-2 p-2">
+                <h2 className="mb-6"> {title}</h2>
                 {body?.map((el, i) => (
                     <p key={`${id}_${i}`} className="mb-6"> 
                         {el}
@@ -17,7 +17,7 @@ const AboutMe =({data, skills})=> {
                 
                 
             </section>
-            <section className=" m-3 p-4">
+            <section className=" m-2 p-2">
                 <Skills data ={skills} />
             </section>
         </div>

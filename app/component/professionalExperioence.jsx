@@ -6,7 +6,7 @@ const ProfessionalExperionce =({data}) => {
     return (
         <section>
            
-            <div className="flex flex-col m-6 ">
+            <div className="flex flex-col m-2 ">
             <h2>{title}</h2>
                 {experiences.map(({role, description,current})=> (
                     <div key = {role} className="mt-4 bg-lightOrange hover:bg-Orange flex flex-col rounded-lg gap-3">
