@@ -13,7 +13,7 @@ const tabs = (
     <div>
     <div className="flex ">
             {['soft','hard'].map((el) => (
-                <button type ='button' 
+                <button key={el} type ='button' 
                 className={
                             `btnAry ${setBg(el)} 
                             ${setTabsAlignment(el)}`
